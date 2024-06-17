@@ -3,7 +3,7 @@ def validarNome(nomeUsuario):
     while True:
         nomeSplit = nomeUsuario.split(" ")
         letra = True
-        cont += 1
+        
         for key in nomeSplit:
             if key.isalpha() != True:
                 letra = False
