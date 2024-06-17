@@ -1,5 +1,5 @@
 nome= input("Informe seu nome:")
-altua= float(input("Informe sua altura:"))
+altura= float(input("Informe sua altura:"))
 idade= int(input("Informe sua idade:"))
 
-print(f"Seu nome é: {nome}\nSua altura é: {altua}\nSua idade é: {idade}")
+print(f"Seu nome é: {nome}\nSua altura é: {altura} metros\nSua idade é: {idade} anos")
