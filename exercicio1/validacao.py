@@ -1,6 +1,5 @@
 def validarNome(nomeUsuario):
     #se o nome que o usuário digitou não contém somente letras ou não respeita o tamanho mínimo e máximo de caracteres, ele deve responder novamente a pergunta
-    cont = 0
     while True:
         nomeSplit = nomeUsuario.split(" ")
         letra = True
