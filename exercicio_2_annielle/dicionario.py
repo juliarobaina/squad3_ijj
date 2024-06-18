@@ -15,8 +15,9 @@ dicionario_de_registro = {
     'pessoa2' : {'nome': 'Julia', 'idade': 25, 'profissao': 'Estudante e Analista nas horas vagas'},
     'pessoa3' : {},
     'pessoa4' : {'idade': 28, 'profissao': 'vivendo a vida na praia com sua arte'},
-    'pessoa5' : {'nome': 'Vitor Back', 'idade': 23, 'profissao': 'Analista de Qualidade'}
+    'pessoa5' : {'nome': 'Vitor Back', 'idade': 23, 'profissao': 'Analista de Qualidade'},
+    'pessoa6' : {'nome': 'Caio', 'idade': 26, 'profissoa': 'inspetor de qualidade'} 
 }
 
-print(f' Todo o dicionário{dicionario_de_registro}\nSó da 1 pessoa: {dicionario_de_registro['pessoa1']}') #print pela chave da pessoa em questão
+print(f'Todo o dicionário: \n\n\n{dicionario_de_registro}\n\n\nSó da 1 pessoa: {dicionario_de_registro['pessoa1']}') #print pela chave da pessoa em questão
 print(f'Terceira pessoa esqueceu do cadastro: {dicionario_de_registro["pessoa3"]}\nE a quarta esqueceu do nome: {dicionario_de_registro["pessoa4"]}')
