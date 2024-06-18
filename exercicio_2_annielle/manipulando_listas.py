@@ -3,9 +3,12 @@
 
 cardapio = ['sopa', 'macarronada', 'frango à milanesa', 'rubacão', 'guisado de bode', 'torta de frango', 'pernil de frango assado']
 
-print(cardapio)
+print(f'PRIMEIRA VERSÃO \nO cárdapio possui {len(cardapio)} pratos, sendo eles: {cardapio}')
 
 cardapio.remove('sopa')
 
-print(f'O cárdapio possui {len(cardapio)} pratos, sendo eles: {cardapio}')
+print(f'SEGUNDA VERSÃO \nO cárdapio possui {len(cardapio)} pratos, sendo eles: {cardapio}')
 
+cardapio.pop(5)
+
+print(f'TERCEIRA VERSÃO \nO cárdapio possui {len(cardapio)} pratos, sendo eles: {cardapio}')
