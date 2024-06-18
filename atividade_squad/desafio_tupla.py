@@ -6,10 +6,9 @@ animais_lista = list(animais)
 
 print(animais_lista)
 
-#Insira 2 dados extras a essa lista
+#Insira 2 dados extras a essa lista - adicionando 2 elementos extend
 
-animais_lista.append('tigre')
-animais_lista.append('elefante')
+animais_lista.extend('tigre','elefante')
 
 print(animais_lista)
 
@@ -31,7 +30,9 @@ quantidade = len(animais_lista)
 print(quantidade)
 
 # Crie um dicionário com os seguintes dados: Nome, Idade, Profissão
-pessoa = {"nome": "Caique", "Idade": 17, "Altura": 1.7}
+pessoa = {"nome": "Caique", 
+         "Idade": 17, 
+         "Altura": 1.7}
 
 #Imprima somente o valor contido na chave Nome do dicionário 
 

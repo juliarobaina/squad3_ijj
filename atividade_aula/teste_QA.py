@@ -11,3 +11,5 @@ print(f"Primeiro output (triplo do valor inserido): {triplo}")
 print(f"Primeiro output (valor inserido ao quadrado): {quadrado}")
 print(f"Primeiro output (raiz quadrada do valor inserido): {raiz_quadrada:.2f}")
 print(f"Primeiro output (raíz cúbica do valor inserido): {raiz_cubica:.2f}")
+
+
