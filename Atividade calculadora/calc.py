@@ -1,4 +1,4 @@
-print(f"\033[1m###################################\nOlá, Bem-vindo a CALUCLADORA DO IJJ\n###################################\033[0m")
+print("Seja bem vindo a calculadora ijj")
 print("-------------------------------")
 
 while True:
