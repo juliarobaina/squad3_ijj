@@ -1,5 +1,7 @@
-print(f"\033[1m###################################\nOlá, Bem-vindo a CALUCLADORA DO IJJ\n###################################\033[0m")
+print(f"\033[1m###################################\nOlá, Bem-vindo a CALCULADORA BAYGON QUALITY \n###################################\033[0m")
 print("-------------------------------")
+
+
 
 while True:
     print("Você pode escolher entre as seguintes operações:")
@@ -27,7 +29,7 @@ while True:
             print(f"{numero1} ** {numero2} = {(numero1 ** numero2)}")
         case _:
             print("Operação inválida!")
-            
+
     sair = input("Deseja continuar? s ou n ")
 
     if sair == 'n':
