@@ -4,10 +4,7 @@ palavra = input('Digite uma palavra: \n')
 vogais = ('a', 'e', 'i', 'o', 'u')
 contador = 0
 
-for i in palavra:
-    print(i)
-    if i.lower() in vogais:
-        print (i)
-        
+for i in palavra.lower():
+    if i in vogais:
         contador += 1
 print(f'A palavra ou mais {palavra} contém {contador} vogais')
