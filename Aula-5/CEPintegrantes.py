@@ -6,7 +6,7 @@ dado_integrantes = [{
 },
 {
     "Integrante": "Caio", 
-    "CEP":"79009090",
+    "CEP":"41194105",
 },
 {
     "Integrante": "Julia", 
@@ -14,7 +14,7 @@ dado_integrantes = [{
 },
 {
     "Integrante": "Tamires", 
-    "CEP":"79680000",
+    "CEP":"07179260",
 },
 {
     "Integrante": "Vitor", 
