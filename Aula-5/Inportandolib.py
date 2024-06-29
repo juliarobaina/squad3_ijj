@@ -7,3 +7,4 @@ data = response.json()
 
 print(f':\n', 'Localidade:', data['localidade'], data['cep'], data['logradouro'])
 
+print(data)
