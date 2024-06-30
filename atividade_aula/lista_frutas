@@ -1,0 +1,8 @@
+frutas = ['uva', 'morango', 'maçã']
+alergias = ['espirrar', 'coceira', 'inchaço']
+
+alergias.append(frutas[0])
+
+for i in frutas:
+  if i in alergias:
+    print(i)
