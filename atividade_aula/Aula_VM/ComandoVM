@@ -1,0 +1,3 @@
+python -m venv [nome do ambiente] --> cria ambiente virtual
+
+.\[nomeAmbiente]\Scripts\activate  --> ativa 
