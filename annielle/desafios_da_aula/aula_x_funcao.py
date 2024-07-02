@@ -1,8 +1,8 @@
 def fraseDoDia():
     print(f'Lindo Dia')
 
-def soma(numeroA, numeroB):
-    soma = numeroA + numeroB
+def soma(a: int, b: int) -> int:
+    soma = a + b
     return soma
 
 fraseDoDia()
