@@ -1,8 +1,8 @@
 import requests 
 
-cep = input ('Qual é o cep?\n')
+cep = int(input('Qual é o cep?\n'))
 
-response = requests.get(f'https://viacep.com.br/ws/01001000/json/')
+response = requests.get(f'https://viacep.com.br/ws/{cep}/json/')
 print(f'Status code', response.status_code)
 data = response.json()
-print('dados', 'dados[logradouro]')
+print(f'Dados da Localidade: {data['localidade']} - {data['uf']}')
