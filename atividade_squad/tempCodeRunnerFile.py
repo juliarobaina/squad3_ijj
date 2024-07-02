@@ -1,0 +1,1 @@
+altura = float(input("Digite sua altura em metros: "))
