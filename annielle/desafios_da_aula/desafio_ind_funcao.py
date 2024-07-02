@@ -6,7 +6,6 @@ def defineTime(matricula):
 
 
 
-
 matricula = int(input("Digite um número "))
 
 print(defineTime(matricula))
