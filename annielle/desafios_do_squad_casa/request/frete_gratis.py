@@ -27,12 +27,4 @@ estado = data.get('uf')
 
 freteGratuito(valorCompra,estado)
 
-
-
 print(f'Status code', response.status_code)
-    
-
-annielle = 58200000
-julia = 25268160
-invalido = 60000000
-trativa = 60000-000 #tirar hifen e espaços 
