@@ -1,4 +1,4 @@
-import requests
+import requests 
 
 cep = input ('Qual é o cep?\n')
 
