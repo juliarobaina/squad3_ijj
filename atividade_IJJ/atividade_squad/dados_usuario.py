@@ -7,8 +7,8 @@ nota2 = float(input("Digite a segunda nota: "))
 
 somando_notas = nota1 + nota2
 
-#print(type(idade))  Apenas para verificar o tipo de dado
-#print(type(altura))  Apenas para verificar o tipo de dado
+print(type(idade))  
+print(type(altura))  
 
 print(f"O nome do usuario é {nome}, sua altura em metros é {altura}, e sua idade é {idade} anos.")
 print(f"A soma das duas notas é {somando_notas}")
