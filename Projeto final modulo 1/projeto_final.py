@@ -1,17 +1,20 @@
 import requests
 import json
+from faker import Faker
+
+fake = Faker('pt_BR')
 
 criar_usuario = "https://desafiopython.jogajuntoinstituto.org/api/users/"
 
 login_usuario = "https://desafiopython.jogajuntoinstituto.org/api/users/login/"
 
 data_usuario = {
-    "username" : "Mario",
-    "email" : "mario@hotmail.com",
-    "password" : "123456786",
-    "phone" : "12345678901",
-    "cpf" : "003.456.789-00",
-    "address" : "123 Main St, city, Country"
+    "username" : fake.user_name(),
+    "email" : fake.email(),
+    "password" : fake.password(),
+    "phone" : fake.phone_number(),
+    "cpf" : fake.ssn(),
+    "address" : fake.address()
 }
 
 
@@ -35,8 +38,8 @@ if response.status_code == 200:
 
 
 
-    with open("login_response.json", "w") as json_file:
-        json.dump(login_response, json_file, indent=4)
+    with open("login_response.json", "w") as file_json:
+        json.dump(login_response, file_json, indent=4)
     print("Resposta do login salva em 'login_response.json'.")
 else:
     print(f"Falha ao realizar login: {response.status_code}")
