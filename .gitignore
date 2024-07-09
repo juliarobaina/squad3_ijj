@@ -1,3 +1,6 @@
 __pycache__/
 env/
 aula5/envCep/
+aula7/pandasEnv
+aula7/__pycache__/
+aula7/dados_ficticios.csv
